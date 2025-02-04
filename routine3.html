@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="CSS/routine.css" />
+    <title>Routine</title>
+  </head>
+  <body>
+    <div class="a">
+      <h2>Bangabandhu Sheikh Mujibur Rahman Digital University(BDU)</h2>
+      <p>
+        <em
+          >Faculty of Digital Transformation Engineering<br />Department of
+          Educational Technology and Engineering(EdTE)</em
+        >
+      </p>
+      <h4>
+        Class Routine of Educational Technology and
+        Engineering(B.Sc.Engg.(EdTE))<br />Semester: July 2024
+      </h4>
+    </div>
+    <br />
+    <br />
+    <!-- Search Bar -->
+    <input
+      type="text"
+      id="search-bar"
+      onkeyup="searchRoutine()"
+      placeholder="Search for courses, rooms, or instructors..."
+    />
+
+    <div class="b">
+      <table id="routine-table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Session</th>
+            <th>8.00-8.50</th>
+            <th>9.00-9.50</th>
+            <th>10.00-10.50</th>
+            <th>11.00-11.50</th>
+            <th>12.00-12.50</th>
+            <th>1.00-1.50</th>
+            <th>2.00-2.50</th>
+            <th>3.00-3.50</th>
+            <th>4.00-4.50</th>
+            <th>5.00-5.50</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Your table rows go here, same as in the original HTML. -->
+          <tr>
+            <th rowspan="5">Saturday</th>
+            <td>2023-24</td>
+            <td colspan="2"></td>
+            <td colspan="2">ENG 105(NH)<br />Tutorial Room-1001</td>
+            <td rowspan="25">Break</td>
+            <td colspan="2">HIS 109(SN)<br />Tutorial Room-1001</td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2022-23</td>
+            <td colspan="9"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-22</td>
+            <td colspan="2">CSE 219(AAW)<br />Tutorial Room-2001</td>
+            <td colspan="2">ET 215(MRK)<br />Lecture Room-2001</td>
+            <td colspan="2">ET 217(MRK)<br />Tutorial Room-2001</td>
+            <td colspan="2">PROG 212(AH)<br />Sessional G-1 Room-1201</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2020-21</td>
+            <td colspan="2">ICTE 4363(RI)<br />Lecture Room-4001</td>
+            <td colspan="2">ICTE 4331(SA)<br />Lecture Room-4001</td>
+            <td colspan="2">ICTE 4332(SA)<br />Sessional G-1 Room-1202</td>
+            <td colspan="2">ICTE 4332(SA)<br />Sessional G-2 Room-1202</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2019-20</td>
+            <td colspan="10"></td>
+          </tr>
+          <tr>
+            <th rowspan="5">Sunday</th>
+            <td>2023-24</td>
+            <td colspan="2">ENG 105(NH)<br />Lecture Room-1001</td>
+            <td colspan="2">PROG 101(RS)<br />Tutorial Room-1001</td>
+            <td colspan="2"></td>
+            <td colspan="2">HIS 109(SN)<br />Lecture Room-4001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2022-23</td>
+            <td colspan="2">MATH 217(SCS)<br />Lecture Room-4001</td>
+            <td colspan="2">ET 205(ZN)<br />Lecture Room-4001</td>
+            <td colspan="2">
+              CSE 202(MA)<br />Sessional G-1 Room-4701<br />CSE 204(SA)<br />Sessional
+              G-2 Room-2701
+            </td>
+            <td colspan="2">
+              CSE 202(MA)<br />Sessional G-2 Room-4701<br />CSE 204(SA)<br />Sessional
+              G-1 Room-2701
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-22</td>
+            <td colspan="2">ET 215(MRK)<br />Tutorial Room-2001</td>
+            <td colspan="2"></td>
+            <td colspan="2">ET 217(MRK)<br />Lecture Room-4001</td>
+            <td colspan="2">PROG 211(AH)<br />Lecture Room-2001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2020-21</td>
+            <td colspan="2">
+              ICTE 4336(FI)<br />Sessional G-1 Room-2701<br />ICTE 4364(RI)<br />Sessional
+              G-2 Room-4701
+            </td>
+            <td colspan="2">
+              ICTE 4336(FI)<br />Sessional G-2 Room-2701<br />ICTE 4364(RI)<br />Sessional
+              G-1 Room-4701
+            </td>
+            <td colspan="2">ACC 4301(RB)<br />Tutorial Room-1001</td>
+            <td colspan="2">ICTE 4333(RB)<br />Lecture Room-1001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2019-20</td>
+            <td colspan="2"></td>
+            <td colspan="2">ICTE 4439(MDK)<br />Lecture Room-2001</td>
+            <td colspan="2">ICT 4461(RH)<br />Lecture Room-2001</td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th rowspan="5">Monday</th>
+            <td>2023-24</td>
+            <td colspan="2"></td>
+            <td colspan="2">PROG 101(RS)<br />Lecture Room-1001</td>
+            <td colspan="2"></td>
+            <td colspan="2">DS 107(SMRH)<br />Lecture Room-1001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2022-23</td>
+            <td colspan="2"></td>
+            <td colspan="2">ET 205(ZN)<br />Tutorial Room-2001</td>
+            <td colspan="2">CSE 201(MA)<br />Lecture Room-4001</td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-22</td>
+            <td colspan="4"></td>
+            <td colspan="2">
+              ET 214 (ZF)<br />Sessional G-1 Room-2701<br />ET 214(RI)<br />Sessional
+              G-2 Room-2701
+            </td>
+            <td colspan="2">
+              ET 218(MDK)<br />Sessional G-2 Room-4701<br />ET 218(MDK)<br />Sessional
+              G-1 Room-4701
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2020-21</td>
+            <td colspan="2">ICTE 4333(RB) <br />Tutorial Room-2001</td>
+            <td colspan="2">ICTE 4335(FI)<br />Lecture Room-4001</td>
+            <td colspan="2">ACC 4301(RB)<br />Lecture Room-1001</td>
+            <td colspan="2">ICTE 4363(RI)<br />Lecture Room-4001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2019-20</td>
+            <td colspan="2"></td>
+            <td colspan="2">
+              ICT 4462(RH)<br />Sessional G-2 Room-2701<br />ICT 4460(AR)<br />Sessional
+              G-1 Room-4701
+            </td>
+            <td colspan="2">ICT 4461(RH)<br />Tutorial Room-2001</td>
+            <td colspan="2">ICT 4459(AR)<br />Lecture Room-2001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th rowspan="5">Tuesday</th>
+            <td>2023-24</td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="2">ET 103(AZ)<br />Lecture Room-2001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2022-23</td>
+            <td colspan="2">CSE 203(SA)<br />Lecture Room-4001</td>
+            <td colspan="2">ET 207(ZN)<br />Lecture Room-2001</td>
+            <td colspan="2">ET 205(ZN)<br />Tutorial Room-1001</td>
+            <td colspan="2">CSE 201(MA)<br />Tutorial Room-4001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-22</td>
+            <td colspan="2">PROG 211(AH)<br />Tutorial Room-1001</td>
+            <td colspan="2">ET 213(ZF)<br />Tutorial Room-1001</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2020-21</td>
+            <td colspan="2"></td>
+            <td colspan="2">ICTE 4335(FI) <br />Tutorial Room-2001</td>
+            <td colspan="2">ICTE 4331(SA)<br />Lecture Room-4001</td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2019-20</td>
+            <td colspan="2">ICTE 4439(MDK)<br />Tutorial Room-2001</td>
+            <td colspan="2"></td>
+            <td colspan="2">EDU 4413(ZF)<br />Lecture Room-2001</td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th rowspan="5">Wednesday</th>
+            <td>2023-24</td>
+            <td colspan="2">
+              PROG 102(RS)<br />Sessional G-1 Room-4701<br />ENG 106(RS)<br />Sessional
+              G-2 Room-2701
+            </td>
+            <td colspan="2">
+              ENG 106(RS)<br />Sessional G-2 Room-2701<br />PROG 102(RS)<br />Sessional
+              G-1 Room-4701
+            </td>
+            <td colspan="2">ET 103(AZ)<br />Tutorial Room-2001</td>
+            <td colspan="2">DS 107(SMRH)<br />Tutorial Room-1001</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2022-23</td>
+            <td colspan="2"></td>
+            <td colspan="2">CSE 203(SA)<br />Tutorial Room-4001</td>
+            <td colspan="2">MATH 217(SCS)<br />Tutorial Room-4001</td>
+            <td colspan="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-22</td>
+            <td colspan="2">ET 213(ZF)<br />Lecture Room-2001</td>
+            <td colspan="2"></td>
+            <td colspan="2">CSE 219(AAW)<br />Tutorial Room-1001</td>
+            <td colspan="2">PROG 212(AH)<br />Sessional G-2 Room-4701</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2020-21</td>
+            <td colspan="4"></td>
+            <td colspan="4"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2019-20</td>
+            <td colspan="2"></td>
+            <td colspan="2">EDU 4413(ZF)<br />Tutorial Room-2001</td>
+            <td colspan="2">
+              ICT 4462(RH)<br />Sessional G-1 Room-2701<br />ICT 4460(AR)<br />Sessional
+              G-2 Room-4701
+            </td>
+            <td colspan="2">ICT 4459(AR)<br />Tutorial Room-2001</td>
+            <td></td>
+          </tr>
+          <!-- Add more rows as needed... -->
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+      function searchRoutine() {
+        // Get the search input value and convert it to lowercase for case-insensitive search
+        let input = document.getElementById("search-bar").value.toLowerCase();
+        let table = document.getElementById("routine-table");
+        let rows = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, starting from the second row (skip header)
+        for (let i = 1; i < rows.length; i++) {
+          let cells = rows[i].getElementsByTagName("td");
+          let rowContainsSearchTerm = false;
+
+          // Loop through each cell in the row to check if it matches the search term
+          for (let j = 0; j < cells.length; j++) {
+            if (cells[j].innerText.toLowerCase().includes(input)) {
+              rowContainsSearchTerm = true;
+              break;
+            }
+          }
+
+          // Show or hide the row based on the search term
+          if (rowContainsSearchTerm) {
+            rows[i].style.display = "";
+          } else {
+            rows[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
